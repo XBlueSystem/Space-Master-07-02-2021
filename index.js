@@ -66,7 +66,7 @@ setInterval(async () => {
     if (commands) commands.run(client, message, args);
 });
 
-client.login(process.env.config.token);
+client.login(config.token);
 
 
 
